@@ -3,19 +3,62 @@
 /***************/
 
 /* Color Palette */
-
-
+.color-1{
+    background: green; 
+}
+.color-2{
+background: orange}
 /* Textures or Patterns*/
-
-
+.pattern-1{
+background: url("https://media.yayomg.com/wp-content/uploads/gallery/patriotic-animals/yayomg-patriotic-hedgehog-4th-of-july.jpg") no-repeat;
+background-size: cover;    
+}
+.pattern-2{
+    background: url("http://www.crazywebsite.com/Pg-Free-Clipart-Graphics/Images_US_Independence_Day_Fourth_of_July/Sam_Patriotic_Eagle_American_Flag-01LG.jpg") no-repeat;
+    background-size:cover;
+}
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+border: none;
+}
 
 /* Navigation */
+nav li {
+    list-style: none;
+}
 
+nav a:link {
+    color: red;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: firebrick;
+}
+
+button{
+    padding: 1em;
+    background: blue;
+    color: white;
+    border: red solid 4px;
+    border-radius: 10px;
+}
 
 /* Typography */
 
+h1, h2 {
+    color:lightblue;
+    font-family: 'Heny Penny', cursive;
+}
+
+p{
+    font-family: 'Heny Penny', cursive;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+}
