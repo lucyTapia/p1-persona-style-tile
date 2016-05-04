@@ -2,63 +2,141 @@
 /* YOUR STYLES */
 /***************/
 
+#me {
+    
+    padding: 100px;
+    width: 65%;
+    margin: auto;
+    display: block;
+    padding-bottom: 1em;
+}
+#knoll {
+    width: 76%;
+    margin: auto;
+    display: block;
+    
+}
+
 /* Color Palette */
 .color-1{
-    background: green; 
+ background:#333333; 
 }
 .color-2{
-background: orange}
+background: #F1B6A7}
+.color-3{
+background: #F1F0F1;
+}
+.color-4{
+background: #123242;
+}
+.color-5{
+background: #F29856;
+}
 /* Textures or Patterns*/
 .pattern-1{
-background: url("https://media.yayomg.com/wp-content/uploads/gallery/patriotic-animals/yayomg-patriotic-hedgehog-4th-of-july.jpg") no-repeat;
+background: url("http://ih1.redbubble.net/image.12725131.8236/flat,800x800,070,f.u4.jpg") no-repeat;
 background-size: cover;    
 }
 .pattern-2{
-    background: url("http://www.crazywebsite.com/Pg-Free-Clipart-Graphics/Images_US_Independence_Day_Fourth_of_July/Sam_Patriotic_Eagle_American_Flag-01LG.jpg") no-repeat;
+    background: url("https://raw.githubusercontent.com/lucyTapia/p1-persona-style-tile/gh-pages/img/img/pattern_1.jpg") no-repeat;
     background-size:cover;
 }
-/* Imagery */
+.pattern-3{
+    background: url("https://raw.githubusercontent.com/lucyTapia/p1-persona-style-tile/gh-pages/img/img/pattern_3.jpg") no-repeat;
+    background-size:cover; 
+}
+.pattern-4{
+    background: url("https://raw.githubusercontent.com/lucyTapia/p1-persona-style-tile/gh-pages/img/img/pattern_4.jpg") no-repeat;
+    background-size: cover;
+}
+.pattern-5{
+    background: url("https://marlonangelo.files.wordpress.com/2013/05/marble-texture.jpg") no-repeat;
+    background-size: cover;
+ }
 
+/* Imagery */
+.imagery-1,.imagery-2,.imagery-3 ,.imagery-4, .imagery-5 {
+    border: 1px;
+    height: 200px;
+    width: 300px;
+    }
+
+   
 
 /* Icons */
-.icon-1 {
-border: none;
+.icon-1, .icon-2,.icon-3, .icon-4, .icon-5 {
+    border: none;
+    height: 50px;
+    width: 50px;   
 }
 
 /* Navigation */
 nav li {
     list-style: none;
+    display: block;
 }
 
 nav a:link {
-    color: red;
+    color: #f1b6a7;
+    background: #333333;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+    padding: 1.2em 0;
+    display:block;
+    
+    
 }
 
 nav a:hover {
-    color: firebrick;
+    color: #f1f0f1;
+    background: #f29856;
 }
 
 button{
-    padding: 1em;
-    background: blue;
-    color: white;
-    border: red solid 4px;
-    border-radius: 10px;
+    background:#f1b6a7;
+    padding: 0.5em 1.1em;
+    border-radius: 1px;
+    color: #f1f0f1;
+    text-transform: uppercase;
+    }
+
+.text-link{
+    color: #123242;
 }
 
 /* Typography */
 
-h1, h2 {
-    color:lightblue;
-    font-family: 'Heny Penny', cursive;
+h1 {
+    font-size:2.2em;
+    font-weight: lighter;
+    letter-spacing: .05em;
+    color: #123242;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #f29856;
+}
+h2 {
+    font-size:2.0em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #f1b6a7;
+}
+h3 {
+    line-height: 200%;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    color: #f29856;
 }
 
 p{
-    font-family: 'Heny Penny', cursive;
+    padding-left: 1.5em;
+    line-height: 150%;
     font-size: 1.25em;
-    line-height: 1.25em;
-    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
 }
