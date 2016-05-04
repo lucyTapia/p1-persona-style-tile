@@ -1,0 +1,142 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+#me {
+    
+    padding: 100px;
+    width: 65%;
+    margin: auto;
+    display: block;
+    padding-bottom: 1em;
+}
+#knoll {
+    width: 76%;
+    margin: auto;
+    display: block;
+    
+}
+
+/* Color Palette */
+.color-1{
+ background:#333333; 
+}
+.color-2{
+background: #F1B6A7}
+.color-3{
+background: #F1F0F1;
+}
+.color-4{
+background: #123242;
+}
+.color-5{
+background: #F29856;
+}
+/* Textures or Patterns*/
+.pattern-1{
+background: url("http://ih1.redbubble.net/image.12725131.8236/flat,800x800,070,f.u4.jpg") no-repeat;
+background-size: cover;    
+}
+.pattern-2{
+    background: url("https://raw.githubusercontent.com/lucyTapia/p1-persona-style-tile/gh-pages/img/img/pattern_1.jpg") no-repeat;
+    background-size:cover;
+}
+.pattern-3{
+    background: url("https://raw.githubusercontent.com/lucyTapia/p1-persona-style-tile/gh-pages/img/img/pattern_3.jpg") no-repeat;
+    background-size:cover; 
+}
+.pattern-4{
+    background: url("https://raw.githubusercontent.com/lucyTapia/p1-persona-style-tile/gh-pages/img/img/pattern_4.jpg") no-repeat;
+    background-size: cover;
+}
+.pattern-5{
+    background: url("https://marlonangelo.files.wordpress.com/2013/05/marble-texture.jpg") no-repeat;
+    background-size: cover;
+ }
+
+/* Imagery */
+.imagery-1,.imagery-2,.imagery-3 ,.imagery-4, .imagery-5 {
+    border: 1px;
+    height: 200px;
+    width: 300px;
+    }
+
+   
+
+/* Icons */
+.icon-1, .icon-2,.icon-3, .icon-4, .icon-5 {
+    border: none;
+    height: 50px;
+    width: 50px;   
+}
+
+/* Navigation */
+nav li {
+    list-style: none;
+    display: block;
+}
+
+nav a:link {
+    color: #f1b6a7;
+    background: #333333;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.2em 0;
+    display:block;
+    
+    
+}
+
+nav a:hover {
+    color: #f1f0f1;
+    background: #f29856;
+}
+
+button{
+    background:#f1b6a7;
+    padding: 0.5em 1.1em;
+    border-radius: 1px;
+    color: #f1f0f1;
+    text-transform: uppercase;
+    }
+
+.text-link{
+    color: #123242;
+}
+
+/* Typography */
+
+h1 {
+    font-size:2.2em;
+    font-weight: lighter;
+    letter-spacing: .05em;
+    color: #123242;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #f29856;
+}
+h2 {
+    font-size:2.0em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #f1b6a7;
+}
+h3 {
+    line-height: 200%;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    color: #f29856;
+}
+
+p{
+    padding-left: 1.5em;
+    line-height: 150%;
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
